@@ -12,7 +12,7 @@ This software requires a device running on the Microsoft Windows Operating Syste
 # Usage
 ```MiPPPi.exe [printer name] [identifier] [filename]```
 
-An application can trigger a print to the added printer. Since the file will be added to the expected output path, the application can scan for new files inside the target directory.
+An application can trigger a print to the added printer. Since a scan result is set to the expected output path, the application can scan for new files inside the target directory.
 
 The appdata (roaming) directory ```%appdata%``` contains the directory ```MiPPPI```. Inside this folder a subdirectory matching with ```identifier```is present (which could be a company or product name). Inside this folder the file ```filename``` will be present.
 
